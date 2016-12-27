@@ -24,8 +24,12 @@ pontuação e cada usuário pode entrar em uma página pessoal que irá mostrar 
 
 Especificação das seguintes User Stories: 
 
-Logar usuário Visualizar lista de livros Visualizar livro Marcar leitura de livro Visualizar ranking de usuários 
-Visualizar pontos e troféus de usuário 
+* Logar usuário 
+* Visualizar lista de livros 
+* Visualizar livro 
+* Marcar leitura de livro 
+* Visualizar ranking de usuários 
+* Visualizar pontos e troféus de usuário 
 
 PS 1: Não é preciso ter o cadastro de livros e de usuários. Esses dados podem estar pré-cadastrados na base de dados.
 Leia com atenção a descrição do sistema e inclua os dados que achar que são necessários. 
