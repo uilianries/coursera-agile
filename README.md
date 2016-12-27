@@ -1,4 +1,7 @@
-# coursera-agile [![Build Status](https://travis-ci.org/uilianries/coursera-agile.svg?branch=develop)](https://travis-ci.org/uilianries/coursera-agile)
+# coursera-agile
+[![Build Status](https://travis-ci.org/uilianries/coursera-agile.svg?branch=develop)](https://travis-ci.org/uilianries/coursera-agile)
+[![Stories in Ready](https://badge.waffle.io/uilianries/coursera-agile.svg?label=ready&title=Ready)](http://waffle.io/uilianries/coursera-agile)
+
 Especificando e Implementando um Projeto
 
 ## Instructions
