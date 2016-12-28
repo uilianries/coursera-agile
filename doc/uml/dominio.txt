@@ -1,0 +1,39 @@
+@startuml
+object Livro
+object Usuario
+object Leitura
+object Ranking
+object Leitor
+object Login
+object LoginController
+object PrateleiraController
+object Prateleira
+
+Usuario : id
+Usuario : nome
+Usuario : senha
+Usuario : pontos
+
+Livro : id
+Livro : titulo
+Livro : autor
+Livro : paginas
+
+Leitura : id_usuario
+Leitura : id_livro
+
+Usuario "1" -- "*" Livro
+Leitura "1" -- "1" Usuario
+Leitura "1" -- "1" Livro
+LoginController -- Login
+Login -- Usuario
+Prateleira "1" -- "*" Livro
+PrateleiraController -- Prateleira
+Leitor -- Usuario
+Leitor -- Livro
+Ranking -- Usuario
+Ranking -- Livro
+Ranking -- Leitura
+
+
+@enduml
