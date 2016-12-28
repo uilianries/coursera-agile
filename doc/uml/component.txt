@@ -1,0 +1,29 @@
+@startuml
+
+package "View" {
+  HTTP - [Facade]
+}
+ 
+package "Controller" {
+  [Use Case Controller] - REST
+} 
+
+package "Model" {
+  [Domain Model] - [Entity]
+}
+
+
+database "H2" {
+  folder "base" {
+    [livros]
+	[usuarios]
+  }
+}
+
+
+[Facade] --> [Use Case Controller]
+[Use Case Controller] --> [Domain Model]
+[Entity] --> [livros]
+[livros] -- [usuarios]
+
+@enduml
